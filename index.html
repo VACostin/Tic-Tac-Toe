@@ -11,32 +11,28 @@
 <body>
   <div id="mainMenu">
     <p class="menuItem">Type of game</p>
-    <button class="menuItem">PVE</button>
-    <button class="menuItem">PVP</button>
+    <button class="menuItem" id="PVE">PVE</button>
+    <button class="menuItem" id="PVP">PVP</button>
   </div>
   <div id="gameBoard">
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
-    <div class="box"></div>
+    <div class="box" id="0"></div>
+    <div class="box" id="1"></div>
+    <div class="box" id="2"></div>
+    <div class="box" id="3"></div>
+    <div class="box" id="4"></div>
+    <div class="box" id="5"></div>
+    <div class="box" id="6"></div>
+    <div class="box" id="7"></div>
+    <div class="box" id="8"></div>
   </div>
   <div id="scores">
-    <div id="leftScore">
-      <p>Player1: 2</p>
-    </div>
-    <div id="rightScore">
-      <p>Player2: 1</p>
-    </div>
+      <p id="playerX">Player X: 0</p>
+      <p id="playerO">Player O: 0</p>
   </div>
   <div id="popupWindow">
-    <p class="menuItem">Player 1 wins!</p>
-    <button class="menuItem">Play again</button>
-    <button class="menuItem">Main menu</button>
+    <p class="menuItem" id="menuMessage">Player 1 wins!</p>
+    <button class="menuItem" id="playAgain">Play again</button>
+    <button class="menuItem" id="toMainMenu">Main menu</button>
   </div>
 </body>
 </html>
